@@ -1,0 +1,8 @@
+name: 01 Buildings Blocks
+on: push
+jobs: 
+    ech-hello:
+        runs-on: ubantu-latest
+        steps: 
+            - run : echo "Hello World"
+        
